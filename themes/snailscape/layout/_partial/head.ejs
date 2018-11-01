@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<%
+	var title = page.title;
+	if (is_archive()){
+		if (is_month()){
+			title = page.month + '月>' + page.year + '年>snail';
+		} else if (is_year()){
+			title = page.year + '年>snail';
+		}
+	} else if (is_category()){
+		title = page.category;
+	} else if (is_tag()){
+		title = page.tag;
+	}
+%>
+<title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+<%- favicon_tag('image/title.ico') %>
+<%- css('css/style.css') %>

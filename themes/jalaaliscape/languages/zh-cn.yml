@@ -1,0 +1,72 @@
+menu:
+  home: 首页
+  archives: 归档
+  tags: 标签
+  categories: 分类
+  about: 关于
+
+footer:
+  powered: "由 %s 强力驱动"
+  theme: 主题
+
+posts:
+  prev: 上一页
+  next: 下一页
+  prev_post: 上一篇
+  next_post: 下一篇
+  toc: 文章目录
+  readmore: 阅读更多
+  visits: '阅读次数'
+  reward: '赞赏支持'
+
+copyright:
+  author: '原文作者'
+  link: '原文链接'
+  license: '许可协议'
+
+counter:
+  archives:
+    zero: 暂无日志
+    one: 目前共计 1 篇日志
+    other: "目前共计 %d 篇日志"
+
+  tagcloud:
+    zero: 暂无标签
+    one: 目前共计 1 个标签
+    other: "目前共计 %d 个标签"
+
+  categories:
+    zero:  暂无分类
+    one: 目前共计 1 个分类
+    other: "目前共计 %d 个分类"
+
+index:
+	search: 搜索文章
+
+widget:
+	recents: 最近
+	categories: 分类
+	archives: 归档
+	tags: 标签
+	tag_cloud: 标签云
+	links: 友情链接
+
+profile:
+	posts: 发布
+	tags: 草稿
+	follow: 项目地址
+
+article:
+	comments: 评论
+	share: 分享
+nav:
+	next: 下一页
+	prev: 上一页
+
+insight:
+	hint: 关键字
+	posts: 文章
+	pages: 页面
+	categories: 分类
+	tags: 标签
+	untitled: 未搜索到相关文章！
